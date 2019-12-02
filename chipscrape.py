@@ -44,7 +44,7 @@ def slugify(filename, replace=" "):
 
 def threadFunc():
     while True:
-        database = "/var/www/articles/chip.de"
+        database = "/usr/app/chip.de"
 
         chip = "https://www.chip.de/nachrichten"
 
