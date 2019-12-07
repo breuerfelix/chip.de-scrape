@@ -31,11 +31,11 @@ the articles will be saved as raw `.html` files.
 ```docker-compose
 version: '3'
 services:
-	chip:
-		image: felixbreuer/chip.de-scrape
-		restart: unless-stopped
-		volumes:
-			- ./data:/usr/app/chip.de
+  chip:
+    image: felixbreuer/chip.de-scrape
+    restart: unless-stopped
+    volumes:
+      - ./data:/usr/app/chip.de
 ```
 
 ## links
